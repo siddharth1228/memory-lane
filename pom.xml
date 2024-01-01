@@ -20,6 +20,9 @@
 	<packaging>pom</packaging>
 	<modules>
 		<module>memory-lane-service</module>
+		<module>memory-lane-dao</module>
+		<module>memory-lane-api</module>
+
 	</modules>
 
 </project>
