@@ -1,4 +1,4 @@
-package com.personal.memorylaneservice;
+package com.personal.memorylane;
 
 import org.springframework.boot.test.context.SpringBootTest;
 
