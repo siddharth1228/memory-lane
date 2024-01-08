@@ -8,13 +8,13 @@
         <version>0.0.1-SNAPSHOT</version>
     </parent>
     <modelVersion>4.0.0</modelVersion>
-    <packaging>jar</packaging>
+
+    <artifactId>memory-lane-mapper</artifactId>
+
     <dependencies>
         <dependency>
-            <groupId>com.personal.memorylaneservice</groupId>
-            <artifactId>memory-lane-api</artifactId>
-            <version>0.0.1-SNAPSHOT</version>
-            <scope>compile</scope>
+            <groupId>org.xmlunit</groupId>
+            <artifactId>xmlunit-core</artifactId>
         </dependency>
         <dependency>
             <groupId>com.personal.memorylaneservice</groupId>
@@ -24,19 +24,11 @@
         </dependency>
         <dependency>
             <groupId>com.personal.memorylaneservice</groupId>
-            <artifactId>memory-lane-dao</artifactId>
-            <version>0.0.1-SNAPSHOT</version>
-            <scope>compile</scope>
-        </dependency>
-        <dependency>
-            <groupId>com.personal.memorylaneservice</groupId>
-            <artifactId>memory-lane-mapper</artifactId>
+            <artifactId>memory-lane-api</artifactId>
             <version>0.0.1-SNAPSHOT</version>
             <scope>compile</scope>
         </dependency>
     </dependencies>
-    <artifactId>memory-lane-core</artifactId>
-
     <properties>
         <maven.compiler.source>17</maven.compiler.source>
         <maven.compiler.target>17</maven.compiler.target>

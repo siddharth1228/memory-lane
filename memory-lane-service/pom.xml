@@ -52,6 +52,18 @@
 			<artifactId>memory-lane-core</artifactId>
 			<version>0.0.1-SNAPSHOT</version>
 		</dependency>
+		<dependency>
+			<groupId>com.personal.memorylaneservice</groupId>
+			<artifactId>memory-lane-api</artifactId>
+			<version>0.0.1-SNAPSHOT</version>
+			<scope>compile</scope>
+		</dependency>
+		<dependency>
+			<groupId>com.personal.memorylaneservice</groupId>
+			<artifactId>memory-lane-core</artifactId>
+			<version>0.0.1-SNAPSHOT</version>
+			<scope>compile</scope>
+		</dependency>
 	</dependencies>
 	<dependencyManagement>
 		<dependencies>
